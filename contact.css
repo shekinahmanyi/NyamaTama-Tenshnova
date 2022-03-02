@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing Script:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi:wght@300;400;500;600;700&display=swap');
+/*base styles*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans",sans-serif;
+    background-color: white;
+}
+.navbar{
+    padding: 20px;
+}
+.navbar > p{
+    text-align: left;
+}
+.navbar_left > p{
+    font-weight: bold;
+    font-size: 20px;
+    font-family:"Dancing Script";
+    color:#E49B0F;
+}   
+.navbar_center{
+   display: flex;
+   cursor: pointer;
+   justify-content: center;
+   padding-right: 30px;
+   font-size: 15px;
+}
+.navbar_center--active{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.navbar_center > a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-family: "Hubballi";
+    font-weight: bold;
+    
+}
+.navbar_links{
+    padding-right: 30px;
+}
+.navbar_links:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+ }
+ .navbar_right{
+     display: flex;
+     justify-content: right;
+ }
+ .navbar_right > div{
+     padding-right: 15px;
+     font-size: 13px;
+     cursor: pointer;
+ }
+ .navbar_right > div > a{
+     text-decoration: none;
+     color: #282828;
+ }
+ hr{
+    margin: 30px;
+    color: #4D4D4D;
+    justify-content: center;
+ }
+ .form{
+     text-align: center;
+ }
+ .form > p{
+     font-size: 12px;
+     margin: 50px;
+ }
+h2{
+     font-size: 70px;
+     margin: 10px;
+ }
+ .input {
+    margin-top: 20px;
+  }
+  .input input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 60%;
+    border-bottom-color: #ccc;
+  }
+  textarea{
+      width:60%;
+      height: 40vh;
+      margin-top: 20px;
+  }
+  
+  .btnContainer {
+    margin-top: 50px;
+  }
+  .btn {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  
+ footer{
+    margin: 70px;
+    padding: 30px;
+}
+.footer_links{
+   
+    text-align: center;
+    font-size: 14px;
+}
+.footer_links > a{
+    text-decoration: none;
+    color: #282828;
+    padding: 10px;
+}
+.footer_links1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.footer_links1 > a{
+     text-decoration: none;
+     color: black;
+     padding: 15px;
+}
+.footer_right{
+    text-align: right;
+    padding-bottom: 15px; 
+}
+.footer_right > p{
+    margin-bottom: 50px;
+}

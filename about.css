@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing Script:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi:wght@300;400;500;600;700&display=swap');
+/*base styles*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans",sans-serif;
+    background-color: white;
+}
+.navbar{
+    padding: 20px;
+}
+.navbar > p{
+    text-align: left;
+}
+.navbar_left > p{
+    font-weight: bold;
+    font-size: 14px;
+    font-family:"Dancing Script";
+    color:#E49B0F;
+}   
+.navbar_center{
+   display: flex;
+   cursor: pointer;
+   justify-content: center;
+   padding-right: 30px;
+   
+}
+.navbar_center--active{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    padding-left: 15px;
+}
+.navbar_center > a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-family: "Hubballi";
+    font-weight: bold;
+    
+}
+.navbar_links{
+    padding-right: 30px;
+}
+.navbar_links:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+ }
+ .navbar_right{
+     display: flex;
+     justify-content: right;
+ }
+ .navbar_right > div{
+     padding-right: 15px;
+     font-size: 13px;
+     cursor: pointer;
+ }
+ .navbar_right > div > a{
+     text-decoration: none;
+     color: #282828;
+ }
+ hr{
+    margin: 30px;
+    color: #4D4D4D;
+    justify-content: center;
+ }
+ 
+ .main_body{
+     text-align: center;
+     margin: 20px;
+ }
+.main_body > p{
+    font-size: 20px;
+}
+ h2{
+    font-size: 70px;
+    margin: 50px;
+ }
+
+ .wlc{
+    padding: 20px;
+}
+ .links{
+     justify-content: center;
+     width: 60vw;
+     margin: 20px;
+     text-decoration: none;
+     color: white;
+     padding: 10px;
+     border: 1px solid black;
+     background-color: black;
+}
+.links:hover{
+    color: black;
+    background-color: white;
+    border-radius: 1px;
+}
+
+
+ footer{
+    margin: 70px;
+    padding: 30px;
+}
+.footer_links{
+    text-align: center;
+    font-size: 14px;
+}
+.footer_links > a{
+    text-decoration: none;
+    color: #282828;
+    padding: 10px;
+}
+.footer_links1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.footer_links1 > a{
+     text-decoration: none;
+     color: black;
+     padding: 15px;
+}
+.footer_right{
+    text-align: right;
+    padding-bottom: 15px;
+}
+.footer_right > p{
+    margin-bottom: 50px;
+}
