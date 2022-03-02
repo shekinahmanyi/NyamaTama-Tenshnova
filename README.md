@@ -1,4 +1,4 @@
 # NyamaTama-Tenshnova
-This is just an Internship project built with html,css ,bootstrap and js.
+This Project is built with HTML,css and JavaScript.
 # Project Setup
-To run this file,make sure to have internet connection since the bootstrap is connected to the internet.
+To make sure you run the files correctly, make sure your connected to the internet inorder to load the icons and other effects done using bootstrap.
