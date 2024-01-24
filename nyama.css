@@ -67,6 +67,8 @@ body{
 
 #intro-sec > img{
     margin-left:20px;
+    width:80%;
+    height:20%;
 }
 .wlc{
     text-align: center;
