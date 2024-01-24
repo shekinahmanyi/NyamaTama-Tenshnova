@@ -66,10 +66,10 @@ body{
  }
 
 #intro-sec > img{
-    margin-left:80px;
-    margin-right:20px;
-    width:80%;
-    height:20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 .wlc{
     text-align: center;
