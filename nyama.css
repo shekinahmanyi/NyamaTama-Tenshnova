@@ -66,6 +66,7 @@ body{
  }
 
 #intro-sec > img{
+    margin-left:80px;
     margin-right:20px;
     width:80%;
     height:20%;
