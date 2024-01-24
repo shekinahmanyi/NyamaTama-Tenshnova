@@ -28,7 +28,7 @@ body{
    cursor: pointer;
    justify-content: center;
    padding-right: 30px;
-   font-size: 15px;
+   font-size: 25px;
 }
 .navbar_center--active{
     text-decoration: underline;
